@@ -4,6 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
-
-email: agus[at]python.web.id
+20.01.02 ~ 현재: NHN 신입개발자
