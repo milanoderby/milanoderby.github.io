@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown Basic Usage"
 date: 2020-01-15 22:17:00 +0900
-categories: [git]
+categories: [markdown]
 ---
 
 # 마크다운(Markdown)
@@ -171,5 +171,5 @@ Remote Repository
 
 
 
-### Fin. 질문, 태클 환영합니다.
+### Fin.
 

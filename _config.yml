@@ -2,7 +2,7 @@ title: Tech Blog
 description: My Personal Tech Blog
 author: Y.H. Choi
 github: https://github.com/milanoderby
-about:  NHN 신입 개발자
+about:  NHN Rookie 7기
 disqus_shortname: milanoderby
 google_analytics: UA-XXXXXXXX-Y
 
@@ -15,16 +15,16 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
     - icon: fa-github
       link: "https://github.com/milanoderby"
+    - icon: fa-facebook
+      link: "#"
+#    - icon: fa-twitter
+#      link: "#"
+#    - icon: fa-linkedin
+#      link: "#"
+#    - icon: fa-stack-exchange
+#      link: "#"
 
 share:
   twitter_username: github.io
@@ -35,8 +35,8 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+#    - text: XML Feed
+#      url: /feed.xml
 
 url: "https://milanoderby.github.io"
 baseurl: ""
