@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Markdown Basic Usage"
+title: "Markdown 기본 사용법"
 date: 2020-01-15 22:17:00 +0900
 categories: [markdown]
 ---

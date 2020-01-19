@@ -17,8 +17,8 @@ collections:
 social:
     - icon: fa-github
       link: "https://github.com/milanoderby"
-    - icon: fa-facebook
-      link: "#"
+#    - icon: fa-facebook
+#      link: "#"
 #    - icon: fa-twitter
 #      link: "#"
 #    - icon: fa-linkedin
