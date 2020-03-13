@@ -13,6 +13,9 @@ categories: [git]
 
   ``` shell
   $ git clone [협업해야될 원격저장소 주소]
+  # github에 저장된 repository명으로 directory를 생성하고, clone해온다.
+  $ git clone [협업해야될 원격저장소 주소] [directory명]
+  # 지정해준 directory명으로 새로 directory를 생성하고, clone해온다.
   ```
 
 - 새로운 branch를 생성한다.
