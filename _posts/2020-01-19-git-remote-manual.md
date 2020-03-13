@@ -42,7 +42,7 @@ categories: [git]
 - Github 원격저장소에 현재까지의 변경사항 및 파일을 저장한다.
 
   ```shell
-  $ git push [내보낼 원격저장소 명] [내보낼 branch]
+  $ git push [내보낼 원격저장소 명] [local저장소에서 내보낼 branch명]
   ```
 
 
@@ -52,7 +52,10 @@ categories: [git]
 - Github 원격저장소의 파일들을 local directory로 가져온다.
 
   ```shell
-  $ git clone [복사해올 원격저장소의 주소]
+  $ git clone [협업해야될 원격저장소 주소]
+  # github에 저장된 repository명으로 directory를 생성하고, clone해온다.
+  $ git clone [협업해야될 원격저장소 주소] [directory명]
+  # 지정해준 directory명으로 새로 directory를 생성하고, clone해온다.
   ```
 
 
@@ -61,8 +64,11 @@ categories: [git]
 
 - 원격저장소의 파일 중 협업이나, 다른 PC에서 작업한 내용을 원격저장소에 저장 등의 이유로 변경된 local directory와 원격저장소간의 불일치를 맞춰주는 역할을 한다.
 
-  ```
-  $ git pull [가져올 원격저장소 명] [저장할 branch]
-  ```
+- `pull = fetch + merge` 이다.
 
+  ```shell
+  $ git pull [가져올 원격저장소 명] [원격저장소에서 가져올 branch명]
+  # 지정한 원격저장소의 브랜치를 local directory의 현재 branch에 pull한다.
+```
+  
   
