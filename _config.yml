@@ -1,8 +1,8 @@
 title: Tech Blog
 description: My Personal Tech Blog
-author: Y.H. Choi
+author: Mad Coder
 github: https://github.com/milanoderby
-about:  NHN Rookie 7기
+about:  이 블로그는 학습정리 및 문제해결방법을 정리한 블로그입니다.
 disqus_shortname: milanoderby
 google_analytics: UA-XXXXXXXX-Y
 
@@ -33,8 +33,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
+#    - text: My Projects
+#      url: /projects/
 #    - text: XML Feed
 #      url: /feed.xml
 
