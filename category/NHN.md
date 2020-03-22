@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: nhn
+categories: NHN
 title: NHN
 permalink: /category/nhn
 ---
