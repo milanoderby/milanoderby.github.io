@@ -17,6 +17,8 @@ categories: [mysql, database]
    where [조건]
    ```
 
+   <br>
+
    - `as`:별칭(alias)
 
      - 컬럼 명에 AS명령어 적용: 결과 테이블의 컬럼 명에 별칭으로 출력된다. 
@@ -33,6 +35,8 @@ categories: [mysql, database]
      from employee as E, department as D;
      ```
 
+     <br>
+
    - `distinct`: 명시한 컬럼에 대해서 중복을 제거하는 명령어
 
      ```mysql
@@ -44,7 +48,11 @@ categories: [mysql, database]
 
      결과 레코드의 결과로 user_name이 같지만, user_address가 다른 경우에는 레코드가 중복되지 않았으므로 출력한다.
 
+     <br>
+
    - `distinctrow`: 조인할 때, 사용되나, 자주 사용되지 않는다.
+
+     <br>
 
    - `order by`: 특정 컬럼에 대해서 정렬할 때, 사용
 
@@ -81,6 +89,8 @@ categories: [mysql, database]
      // 위의 경우, birth에 대해서는 내림차순, species에 대해서는 오름차순으로 적용된다.
      ```
 
+     <br>
+
    - `limit` : 결과 행의 출력 개수를 지정한다.
 
      ```mysql
@@ -90,7 +100,10 @@ categories: [mysql, database]
      ```
 
      - `offset+1`번째 행부터 `row_count`개의 행을 출력한다.
+
      - 생략하면, `offset`의 기본 값은 0, `row_count`의 기본 값은 1000이다.
+
+       <br>
 
    - `group by` : 집단함수의 대상집단을 지정할 때, 사용되는 명령어
 
@@ -128,6 +141,8 @@ categories: [mysql, database]
 
      - `group by`절로 그룹을 나눌 때, `select`절에는 `각 그룹 내에서 공통된 값을 가지는 컬럼`, `집단 함수`, `그룹화에 사용된 컬럼`들만 나타낼 수 있다.
 
+       <br>
+
    - `having` : `group by`절로 나뉘어진 각 그룹이 만족해야하는 조건을 명시할 때, 사용되는 명령어
 
      - `having` 절에 사용되는 컬럼은 `각 그룹 내에서 공통된 값을 가지는 컬럼` 또는 `그룹화에 사용된 컬럼` 이거나, `집단함수에 포함`되어야 한다.
@@ -141,7 +156,7 @@ categories: [mysql, database]
        having avg(salary) >= 2500000
        ```
 
-       
+       <br>
 
 2. insert 문 (생성, create)
 
@@ -156,7 +171,7 @@ categories: [mysql, database]
    // 대신, 컬럼3, 컬럼5에만 값을 넣을 때, 도메인 조건에 맞는 값을 입력해야 한다.
    ```
 
-   
+   <br>
 
 3. update 문 (수정, update)
 
@@ -166,7 +181,7 @@ categories: [mysql, database]
    where [조건]
    ```
 
-   
+   <br>
 
 4. delete 문 (삭제, delete)
 
@@ -177,7 +192,7 @@ categories: [mysql, database]
    // 참조하는 테이블의 튜플을 삭제하면, 참조 무결성 제약조건을 위배하지 않음
    ```
 
-   
+   <br>
 
 참조문서
 
