@@ -25,7 +25,7 @@ categories: [mysql, database]
   );
   ```
 
-  
+  <br>
 
 - 사용 예시
 
@@ -45,7 +45,7 @@ categories: [mysql, database]
   );
   ```
 
-  
+  <br>
 
 2. alter 문: `table`의 구조를 변경할 수 있다.
 
@@ -55,11 +55,15 @@ categories: [mysql, database]
   alter table [테이블 명] add [column] [컬럼 명] [도메인 제약조건]
   ```
 
+  <br>
+
 - 컬럼 도메인 제약조건 수정
 
   ```mysql
   alter table [테이블 명] modify [column] [컬럼 명] [도메인 제약조건]
   ```
+
+  <br>
 
 - 컬럼 이름, 도메인 제약조건 변경
 
@@ -67,11 +71,15 @@ categories: [mysql, database]
   alter table [테이블 명] change [column] [기존 컬럼 명] [변경된 컬럼 명][도메인 제약조건]
   ```
 
+  <br>
+
 - 컬럼 삭제
 
   ```mysql
   alter table [테이블 명] drop [column] [컬럼 명]
   ```
+
+  <br>
 
 - primary key 제약조건 추가
 
@@ -79,11 +87,15 @@ categories: [mysql, database]
   alter table [테이블 명] add [constraint [제약조건 명]] primary key([컬럼 명])
   ```
 
+  <br>
+
 - foreign key 제약조건 추가
 
   ```mysql
   alter table [테이블 명] add [constraint [제약조건 명]] foreign key([컬럼 명]) references [테이블 명]([컬럼 명])
   ```
+
+  <br>
 
 - check 제약조건 추가
 
@@ -91,11 +103,15 @@ categories: [mysql, database]
   alter table [테이블 명] add check([제약조건 표현식])
   ```
 
+  <br>
+
 - order by 절 추가
 
   ```mysql
   alter table [테이블 명] order by [컬럼 명,...]
   ```
+
+  <br>
 
 - 테이블 이름 변경
 
@@ -103,7 +119,7 @@ categories: [mysql, database]
   alter table [기존 테이블 명] rename [변경된 테이블 명]
   ```
 
-
+<br>
 
 3. drop 문: `table`, `domain`, `view`, `index` 를 제거할 수 있다.
 
