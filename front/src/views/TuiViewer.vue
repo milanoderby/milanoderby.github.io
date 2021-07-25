@@ -1,6 +1,5 @@
 <template>
   <div id="editor">
-    ## 안녕 세상
   </div>
 </template>
 <script lang="ts">
@@ -13,16 +12,20 @@
     mounted() {
       const editor = new Editor({
         el: document.getElementById('editor')!,
-        height: '500px',
+        height: 'auto',
         initialEditType: 'markdown',
-        previewStyle: 'vertical'
+        initialValue: '# Hello World',
+        previewStyle: 'vertical',
+        usageStatistics: false
       });
+
+      editor.getMarkdown();
     }
   })
   export default class TuiViewer extends Vue {}
 </script>
 <style>
-
-
-
+#editor {
+  width: 100%;
+}
 </style>
