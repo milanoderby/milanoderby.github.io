@@ -1,22 +1,23 @@
 <template>
   <el-header class="header">
-    <div class="header-left">
-      <el-button><i class="el-icon-s-unfold"></i></el-button>
-    </div>
     <div class="header-menu">
-      <span>Mad Coder</span>
+      <span>Mad Coder, Special One</span>
     </div>
+    <div class="header-center"></div>
     <div class="header-menu">
-      <el-button type="text">Tags</el-button>
-      <el-button type="text">Login</el-button>
       <el-button type="primary" icon="el-icon-search" circle></el-button>
+      <el-button type="text" class="menu-text">Tags</el-button>
+      <el-button type="text" class="menu-text">Login</el-button>
+    </div>
+    <div class="header-right">
+      <el-button type="primary" icon="el-icon-s-unfold"></el-button>
     </div>
   </el-header>
 </template>
 <script>
 export default {
-  name: 'header-component'
-}
+  name: "header-component",
+};
 </script>
 <style scoped>
 .header {
@@ -30,27 +31,30 @@ export default {
   align-items: center;
 }
 
-.header-left {
-  width: 160px;
-  padding: 0 20px;
-}
-
 .header-menu {
   color: var(--el-color-primary);
-  flex: 1;
+  margin: 0 20px;
 }
 
-.header-menu > span, .header-menu > button {
+.header-menu > span,
+.header-menu .menu-text {
   font-size: 20px;
 }
 
-el-button {
-  text-align: right;
-  font-size: 12px;
+.header-center {
+  flex: 1;
 }
 
-.el-icon-s-unfold {
-  color: var(--el-color-primary);
+.header-right {
+  width: 160px;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right > button {
   font-size: 20px;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
-  <header-component/>
+  <header-component />
   <el-container style="height: 100%; border: 1px solid #eee">
-    <aside-component/>
     <el-main>
-      <router-view/>
+      <router-view />
     </el-main>
+    <aside-component />
   </el-container>
 </template>
 
@@ -13,8 +13,8 @@ import HeaderComponent from "@/components/HeaderComponent";
 import AsideComponent from "@/components/AsideComponent";
 
 export default {
-  components: {AsideComponent, HeaderComponent}
-}
+  components: { AsideComponent, HeaderComponent },
+};
 </script>
 
 <style>

@@ -14,11 +14,17 @@ const routes: Array<RouteRecordRaw> = [
   //       import(/* webpackChunkName: "about" */ "@/views/Main.vue"),
   // },
   {
+    path: "/editor",
+    name: "TuiEditor",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/TuiEditor.vue"),
+  },
+  {
     path: "/",
     name: "TuiViewer",
     component: () =>
-        import(/* webpackChunkName: "about" */ "@/views/TuiViewer.vue"),
-  }
+      import(/* webpackChunkName: "about" */ "@/views/TuiViewer.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -21,11 +21,7 @@
 </template>
 <script>
 export default {
-  name: 'aside-component'
-}
+  name: "aside-component",
+};
 </script>
-<style>
-
-
-
-</style>
+<style></style>

@@ -1,14 +1,11 @@
 <template>
-  <el-main>
-  </el-main>
+  <el-main> </el-main>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
-@Options({
-
-})
+@Options({})
 export default class Main extends Vue {}
 </script>
 
